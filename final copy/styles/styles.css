@@ -1,0 +1,46 @@
+body{
+    background-color: antiquewhite;
+}
+
+main{
+    /* background-color: ; */
+    text-align: center;
+    margin-top: 5%;
+    max-width: 800px;
+    margin: 12% auto;
+    padding: 25px;
+}
+
+#scoreDisplay{
+    color: darkblue;
+    font-size: 1.5em;
+}
+
+#playerName{
+    color: darkblue;
+    font-size: 1.5em;
+    font: bolder;
+}
+
+h2{
+    font-size: 2em;
+}
+
+.startGame{
+    font-size: 3em;
+}
+
+#hidingAnimal{
+    height: 14px;
+    z-index: 3;
+    opacity: 0;
+    max-width: 20px;
+    height: 20px;
+    transition: all 1s ease;
+    position: absolute;
+}
+
+#hidingAnimal:hover{
+    cursor: pointer;
+}
+

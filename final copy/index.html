@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hiding Owl</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="scripts/scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <p class="score" id="scoreDisplay">Score: 0</p>
+    </header>
+
+    <main>
+        <section class="startMenu" id="menu">
+            <h2>Click START to play</h2>
+
+            <p>Make sure that your volume is on</p>
+
+            <button class="startGame" id="startButton">Start Game</button>
+        </section>
+
+        <div id="hidingAnimal">
+            <img id="owlImage" src="images/HidingOwl.png" alt="Hiding Animal">
+        </div>
+
+        <audio id="foundNoise">
+            <source src="audio/Whooo.m4a" type="audio/mp4">
+            Your browser does not support the audio element.
+        </audio>
+
+        <audio id="searchingNoise">
+            <source src="audio/Owl.m4a" type="audio/mp4">
+            Your browser does not support the audio element.
+        </audio>
+
+    </main>
+</body>
+</html>

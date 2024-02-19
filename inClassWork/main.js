@@ -1,0 +1,10 @@
+console.log("hello world");
+const PI = 3.14;
+let radius = 3;
+let area = 0;
+const myList = [1, 2, 3];
+myList[0] = 5;
+console.log(myList);
+area = radius * radius * PI;
+radius = 4;
+area = radius * radius * PI;
